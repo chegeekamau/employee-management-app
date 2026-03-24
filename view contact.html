@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="new contact.html">New Contact</a>
+        <a href="view contact.html">View All Contact</a>
+    </nav>
+    <div>
+        <h2>All Employee Contacts</h2>
+
+        <table>
+            <tr>
+                <th>NAME</th>
+                <th>EMAIL</th>
+                <th>PHONE</th>
+                <th>DEPARTMENT</th>
+                <th>ACTIONS</th>
+            </tr>
+
+            <tr>
+                <td>Omondi Timon</td>
+                <td>omonditimon@gmail.com</td>
+                <td>0734562389</td>
+                <td>Brand Manager</td>
+                <td>
+                    <button onclick="viewDetails()">DETAILS</button>
+                    <button onclick="editcontacts()">EDIT</button>
+                    <button onclick="deletecontact()">DELETE</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
