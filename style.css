@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color:;
+    background-size: cover;
+    background-position: center;
+    background-image: url();
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    border-color: ghostwhite;
+    text-overflow: ellipsis;
+    margin-left: 200px;
+    max-width: 900px;
+    border-radius: 12px;
+
+}
+
+h1,h2 {
+    text-align: center;
+    color: black;
+}
+
+form {
+    max-width: 400px;
+    margin-left: 50px auto;
+    background:rgba(255,255,255,0,9);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow:0 4px 15px rgba(0,0,0,0,3);
+
+
+
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    outline-color: #575757;
+}
+button{
+    padding: 10px;
+    background-color:gray;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+}
+button:hover{
+    background-color:#555;
+    opacity: 0.8;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background:gray;
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+    
+}
+th,td{
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+label{
+    font-weight: bold;
+    display: block;
+    color: black;
+}
+th {
+    background-color:#111;
+    color: white;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #111;
+    padding-top: 20px;
+    background: linear-gradient(180deg,#1e3c72,#2a5298);
+}
+.sidebar a{
+    display: block;
+    color:white;
+    padding: 12px;
+    text-decoration: none;
+
+
+}
+.sidebar h2{
+    color:white;
+    text-align: center;
+
+}
+.sidebar a:hover {
+    background-color: #575757;
+}
+.main-content{
+    margin-left: 200px;
+    padding: 20px;
+    color: black;
+}
+.action-buttons{
+    display: flex;
+    flex-direction: row;
+    gap:8px
+}
+.details{
+    background-color: #3498db;
+}
+.edit{
+    background-color: #f39c12;
+}
+.delete{
+    background-color: #e74c3c;
+}

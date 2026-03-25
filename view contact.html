@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
+    <nav class="sidebar">
+        <H2>EMS</H2>
         <a href="index.html">HOME</a>
-        <a href="new contact.html">New Contact</a>
-        <a href="view contact.html">View All Contact</a>
+        <a href="new contact.html">NEW CONTACT</a>
+        <a href="view contact.html">VIEW ALL CONTACT</a>
     </nav>
-    <div>
+    <div class="container">
         <h2>All Employee Contacts</h2>
 
         <table>
@@ -30,9 +31,11 @@
                 <td>0734562389</td>
                 <td>Brand Manager</td>
                 <td>
-                    <button onclick="viewDetails()">DETAILS</button>
-                    <button onclick="editcontacts()">EDIT</button>
-                    <button onclick="deletecontact()">DELETE</button>
+                    <div class="action-buttons">
+                    <button class="btn details" oclick="viewDetails()">DETAILS</button>
+                    <button class="btn edit" onclick="editcontacts()">EDIT</button>
+                    <button class="btn delete" onclick="deletecontact()">DELETE</button>
+                    </div>
                 </td>
             </tr>
         </table>
