@@ -1,15 +1,13 @@
-function details(){
+function viewdetails(){
     alert("Diplaying full employee details");
 } 
-function editContact(){
+function editcontacts(){
     alert("Edit employee information");
 }
-function deleteContact(){
+function deletecontact(){
     let confirmDelete = confirm("Are you sure you want to delete");
 
     if(confirmDelete){
-        alert("Employee delete")
-    }
-
-
+        alert("Employee delete");
+}
 }
